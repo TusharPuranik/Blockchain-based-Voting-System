@@ -17,8 +17,9 @@ Clone the project.
 ### Step-2
 Install the dependencies. Type the following commands in the terminal:
 
-cd election
-npm install
+$cd election
+
+$npm install
 
 ### Connet Genache and Metamask
 1.Open MetaMask wallet and Click on the Account Circle.
