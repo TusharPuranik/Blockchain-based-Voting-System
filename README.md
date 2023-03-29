@@ -27,7 +27,9 @@ npm install
 4.Paste your private key string to MetaMask.
 
 ### Compiling the contracts
-$ truffle migrate --reset You must migrate the election smart contract each time your restart ganache.
+$ truffle migrate --reset 
+You must migrate the election smart contract each time your restart ganache.
 
 ### Run the frontend application
-$ npm run dev Visit this URL in your browser: http://localhost:3000
+$ npm run dev 
+Visit this URL in your browser: http://localhost:3000
