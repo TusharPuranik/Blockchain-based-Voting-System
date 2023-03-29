@@ -1,10 +1,46 @@
-# Blockchain-based-Voting-System
-Revolutionize the voting process with our secure and transparent blockchain-based voting system.
 
-This project is a decentralized, transparent, and secure voting system based on blockchain technology. The goal of this project is to provide an alternative to traditional voting methods that can be prone to errors, fraud, and manipulation.
+# Election - DAPP Tutorial
+Build your first decentralized application, or Dapp, on the Ethereum Network with this tutorial!
 
-The system consists of a smart contract deployed on a public blockchain network (Ethereum), which manages the voting process and stores the voting results. The smart contract ensures that only authorized voters can participate in the election, that each voter can only vote once, and that the votes are tallied accurately and anonymously.
+**Full Free Video Tutorial:**
+https://youtu.be/3681ZYbDSSk
 
-The project includes a user interface that allows voters to authenticate, and cast their votes securely from their devices. The user interface is designed to be user-friendly and accessible to all types of voters, including those who may not have technical expertise.
 
-Overall, this project aims to leverage the benefits of blockchain technology, such as immutability, transparency, and decentralization, to create a more reliable and trustworthy voting system that can be used in various contexts, from local elections to global referendums. The project is open-source and welcomes contributions from the community to improve and expand its functionality.
+Follow the steps below to download, install, and run this project.
+
+## Dependencies
+Install these prerequisites to follow along with the tutorial. See free video tutorial or a full explanation of each prerequisite.
+- NPM: https://nodejs.org
+- Truffle: https://github.com/trufflesuite/truffle
+- Ganache: http://truffleframework.com/ganache/
+- Metamask: https://metamask.io/
+
+
+## Step 1. Clone the project
+`git clone https://github.com/dappuniversity/election`
+
+## Step 2. Install dependencies
+```
+$ cd election
+$ npm install
+```
+## Step 3. Start Ganache
+Open the Ganache GUI client that you downloaded and installed. This will start your local blockchain instance. See free video tutorial for full explanation.
+
+
+## Step 4. Compile & Deploy Election Smart Contract
+`$ truffle migrate --reset`
+You must migrate the election smart contract each time your restart ganache.
+
+## Step 5. Configure Metamask
+See free video tutorial for full explanation of these steps:
+- Unlock Metamask
+- Connect metamask to your local Etherum blockchain provided by Ganache.
+- Import an account provided by ganache.
+
+## Step 6. Run the Front End Application
+`$ npm run dev`
+Visit this URL in your browser: http://localhost:3000
+
+If you get stuck, please reference the free video tutorial.
+
